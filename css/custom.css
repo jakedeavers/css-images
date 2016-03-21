@@ -1,13 +1,13 @@
 /*your custom CSS here*/
 
 .heading {
-width: 100%;
-height: 400px;
-background-image:url(../img/heading.jpg);
+width:100%;
+height: 310px;
+background-image: url(../img/Rams_Mock16.jpg);
 background-repeat: no-repeat;
 background-position: center;
-background-color: #003366
-text-allign: center;
+border-bottom: 2px solid #ffff00;
+}
 
 .heading h1 {
 color:#fff;
@@ -38,12 +38,47 @@ border-top: 2px solid #eee;
 
 
 
-.box {
+div.box 1 {
+position: relative; float: left; width: 32%; height: 150px; background-color: pink; overall width 248px including 2*3px padding and 2*1px border
+
+}
+
+div.box 2 {
+position: relative; float: left; width: 32%; background-color: azure; overall width 248px including 2*3px padding and 2*1px border; (no height)
+}
+
+div.box 3 {
+position: relative; float: left; width: 32%px; height: 125px; background-color: yellow; overall width 218px including 2*3px padding and 2*1px border
+}
+
+
+div.box 4 {
 float:left;  
 width: 32%;
 margin-right: 1.5%;
 Margin-bottom: 100px;
+height: 32%;
+top:30%;
 }
+
+div.box 5 {
+float:left;  
+width: 32%;
+margin-right: 1.5%;
+Margin-bottom: 100px;
+height: 32%;
+top:30%;
+}
+
+div.box 6 {
+float:left;  
+width: 32%;
+margin-right: 1.5%;
+Margin-bottom: 100px;
+height: 32%;
+top:30%;
+}
+
 
 .box:last-child {
 margin-right: 0;
@@ -57,9 +92,16 @@ margin-right: 0;
 width: 100%;
 }
 
-.box a.read-more {
-display: block;
-margin-top: 5px;
-padding-top: 10px;
-border-top: 1px solid #ccc;
-}
+a {
+  color: #4d4d33;
+  text-decoration: none; }
+  a:hover {
+color: #e0e0d1;
+    text-decoration: underline; }
+
+.read-more {
+  color: #000099;
+  text-decoration: underline; }
+  .read-more:hover {
+color: #4d4dff;
+    text-decoration: none; }
