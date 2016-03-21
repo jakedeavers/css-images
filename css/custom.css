@@ -1,7 +1,7 @@
 /*your custom CSS here*/
 
 body {
-background-color: #003699;
+background-color: #010301;
 }
 
 .heading {
@@ -11,6 +11,7 @@ background-image: url(../img/greenbay_header.jpg);
 background-repeat: no-repeat;
 background-position: center;
 border-bottom: 2px solid #ffff00;
+
 }
 
 .heading h1 {
@@ -24,16 +25,17 @@ bottom: 0;
 left: 0;
 padding:0 20px;
 border-top: 2px solid #eee;
+color: yellow;
 }
 
 .box {
-  color: white;
+  color: yellow;
   float: left;
-  width: 32%;
-  margin-right: 1.5%;
-  margin-bottom: 100px;
-  border-width: thick;
-  border-color: solid #ffff00;
+  width: 28%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+border-style: solid;
+border-width: 4px;
 }
 
 .box:last-child {
@@ -57,7 +59,7 @@ text-decoration: none;
   
 a:hover {
     
-color: black;
+color: yellow;
 text-decoration: underline; 
 }
 
@@ -72,7 +74,7 @@ text-decoration: underline;
   
 .read-more:hover {
     
-color: black
+color: yellow
 ;    
 text-decoration: none; 
 }
